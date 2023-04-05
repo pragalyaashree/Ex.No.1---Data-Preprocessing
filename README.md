@@ -32,6 +32,7 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
+```
 developer Name: R.K Pragalyaa shree
 Reg No        : 212221040125
 import pandas as pd
@@ -58,6 +59,7 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 df1 = sc.fit_transform(df)
 print(df1)
+```
 
 ## OUTPUT:
 ![nn 1](https://user-images.githubusercontent.com/128135934/230117245-47e45ed3-7f6e-4a06-beb7-5981dfa9d100.png)
